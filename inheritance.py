@@ -6,6 +6,7 @@ class Dog(Animal):
         print(Animal.what_am_i(self))
         return "I am a dog"
 dog = Dog()
+cat = Animal()
 animal = Animal()
 
 print("THIS IS DOG")
