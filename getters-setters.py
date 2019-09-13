@@ -18,4 +18,7 @@ class Person:
 
 david = Person("david", "Jimenez Sequero")
 david._name = "Bob"
+
+henry = Person("henry", "Bushell")
+print(henry.get_name())
 print(david.get_name())
